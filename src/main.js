@@ -2,10 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import './plugins/ant-design-vue.js'
+import './plugins/element.js'
 import 'common/stylus/index.styl'
 import 'assets/icons/index.js'
-import 'ant-design-vue/dist/antd.less'
 
 Vue.config.productionTip = false
 

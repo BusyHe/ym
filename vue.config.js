@@ -7,12 +7,6 @@ function resolve (dir) {
 module.exports = {
     css: {
         loaderOptions: {
-            less: {
-                modifyVars: {
-                    'primary-color': '#4865ff'
-                },
-                javascriptEnabled: true
-            },
             stylus: {
                 import: [
                     '~@/common/stylus/variable.styl',
